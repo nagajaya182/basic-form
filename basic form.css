@@ -1,0 +1,53 @@
+        body{
+            padding-top:20px;
+            background-image:url("https://plus.unsplash.com/premium_photo-1661315477345-1a1709d2b3d5?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Y29udGFjdCUyMGZvcm18ZW58MHx8MHx8fDA%3D");
+            background-repeat:no-repeat; 
+            background-attachment: fixed;
+            background-size:cover;
+        }
+        .container{
+          min-width: 150px;
+          max-width:300px ;
+          margin:100px auto ;
+          border-radius: 4px;
+          background-image:url("https://t3.ftcdn.net/jpg/03/55/60/70/360_F_355607062_zYMS8jaz4SfoykpWz5oViRVKL32IabTP.jpg") ;
+          background-repeat:no-repeat; 
+          background-attachment:fixed;
+          background-size:cover;
+          transform:scale(1.5,1.5);
+        }
+        h1{
+          color:white;
+          text-shadow:2px 3px 3px black;
+        }
+        .in{
+            padding: 20px 70px;
+        }
+        .in h3 ,i{
+            text-shadow:2px 2px 4px rgb(95, 161, 147);
+        }
+        input{
+          border: 2px solid black;
+          border-radius:5px;
+          box-shadow:1px 1px 2px black;
+        }
+        i{
+          margin:5px;
+        }
+        .in h3:hover,i:hover {
+         font-size: 23px;
+         color:white;
+        }
+        .btn{
+          background-color: rgb(228, 246, 250);
+          margin-left:30px;
+          padding:5px 20px;
+          border-radius: 5px;
+           box-shadow:1px 1px 2px black;
+        }
+        .btn:hover{
+         color:rgb(12, 173, 160);
+         font-size:15px;
+         font-weight:bold;
+         transition:1s;
+        }
